@@ -8,6 +8,7 @@ import { MatListModule } from "@angular/material/list";
 import { FormsModule } from "@angular/forms";
 import { CommonModule } from "@angular/common";
 import { UsersListComponent } from './users-list/users-list.component';
+import { PipesModule } from "../pipes/pipes.module";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { UsersListComponent } from './users-list/users-list.component';
         
         FormsModule,
         CommonModule,
-        AngularMaterialModule
+        AngularMaterialModule,
+        PipesModule
         
         //FilterComponent
         //MatButtonModule,
