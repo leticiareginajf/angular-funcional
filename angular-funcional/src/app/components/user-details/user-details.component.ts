@@ -7,7 +7,8 @@ import { IUser } from '../../interfaces/user/user.interface';
   styleUrl: './user-details.component.scss'
 })
 export class UserDetailsComponent {
-  @Input({ required: true}) user: IUser = { } as IUser;
   //@Input({ required: false }) user: Partial<IUser> = { };
-
+  @Input({ required: true}) user: IUser = { } as IUser;
 }
+
+
