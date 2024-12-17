@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { PhonePipe } from './phone.pipe';
 import { AddressPipe } from './address.pipe';
 import { StatusPipe } from './status.pipe';
+import { DashIfEmptyPipe } from './dash-if-empty.pipe';
 
 
 @NgModule ({
@@ -9,7 +10,8 @@ import { StatusPipe } from './status.pipe';
     declarations: [
     PhonePipe,
     AddressPipe,
-    StatusPipe
+    StatusPipe,
+    DashIfEmptyPipe
 
    
   ],
@@ -17,6 +19,7 @@ import { StatusPipe } from './status.pipe';
         PhonePipe,
         AddressPipe,
         StatusPipe,
+        DashIfEmptyPipe
     ],
 })
 
