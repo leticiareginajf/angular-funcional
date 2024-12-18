@@ -8,4 +8,11 @@ Letícia Honório
 - Interface de Usuários
 - Data
 - Users-Lists
-- Pipes (Phone, Address)
+- Pipes 
+- Phone
+- Address
+- Status
+- Date
+- Dash-if-empty
+- Evento Click Usuário
+- ShowDetailsUser
