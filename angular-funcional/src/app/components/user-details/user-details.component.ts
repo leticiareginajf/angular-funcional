@@ -8,7 +8,12 @@ import { IUser } from '../../interfaces/user/user.interface';
 })
 export class UserDetailsComponent {
   //@Input({ required: false }) user: Partial<IUser> = { };
-  @Input({ required: true}) user: IUser = { } as IUser;
+  @Input({ required: true}) user: IUser = {} as IUser;
+
+
+/*  formatUserStatus(status: boolean){
+    return status ? 'Ativo' : 'Inativo';
+  }*/
 }
 
 
