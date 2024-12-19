@@ -1,9 +1,9 @@
 <div class="filter">
-    <form class="form">
+    <div class="form">
         <div class="form__name">
             <mat-form-field class="example-full-width">
                 <mat-label>Nome:</mat-label>
-                <input matInput placeholder="Ex. Fulano da Silva" value="Fulano">
+                <input matInput placeholder="Ex. Fulano da Silva" [(ngModel)]="filterOptions.name"/>
             </mat-form-field>
         </div>
         <div class="form__date--picker">
@@ -22,14 +22,12 @@
             <mat-form-field>
                 <mat-label>Status</mat-label>
                 <mat-select>
-                    @for (food of foods; track food) {
-                    <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
-                    }
+                    <!--<mat-option *ngFor="let food of foods" [value]="food.value">{{food.viewValue}}</mat-option>-->
                 </mat-select>
             </mat-form-field>
         </div>
         <div class="form__button">
             <button mat-raised-button color="primary">Filtrar</button>
         </div>
-    </form>
+    </div>
 </div>
