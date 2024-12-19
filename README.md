@@ -16,3 +16,4 @@ Letícia Honório
 - Dash-if-empty
 - Evento Click Usuário
 - ShowDetailsUser
+- ngOnitInit
